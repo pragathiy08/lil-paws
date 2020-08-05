@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "984549123447",
+    "firebase_url": "https://lil-paws.firebaseio.com",
+    "project_id": "lil-paws",
+    "storage_bucket": "lil-paws.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984549123447:android:28af9bc9dcd6d5f403ad72",
+        "android_client_info": {
+          "package_name": "com.pragathiy.lilpaws"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984549123447-jeelv1msbmbq39s8636tqip4tlh1dj3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pragathiy.lilpaws",
+            "certificate_hash": "f00a1e685cb129c494214024a735445925da645a"
+          }
+        },
+        {
+          "client_id": "984549123447-i5bpffhhtjmht1nlkdnaqq6n85dl10hg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnzPU6Ypl6da0NnEojz_z1mALYvATQjU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984549123447-i5bpffhhtjmht1nlkdnaqq6n85dl10hg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

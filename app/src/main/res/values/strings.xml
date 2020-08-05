@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">Lil Paws</string>
+    <string name="app_name">Lil\' Paws</string>
+
+    <!-- Configs -->
+    <string name="preferences">com.pragathiy.lilpaws.SharedPref</string>
+    <string name="pref_auth_token">AuthToken</string>
+
+    <!-- Activity Labels -->
+    <string name="activity_signin">Signin</string>
+    <string name="activity_new_pet">New Pet</string>
+
+    <!-- Inputs -->
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_pet_name">Name</string>
+    <string name="hint_pet_age">Age</string>
+    <string name="button_signin">Signin</string>
+    <string name="chip_dog">Dog</string>
+    <string name="chip_cat">Cat</string>
+    <string name="chip_bird">Bird</string>
+
+    <!-- No Auth Screen -->
+    <string name="noauth_icon_description">Hello illustration</string>
+    <string name="noauth_message">Hello user, please sign in.</string>
+
+    <!-- Menus -->
+    <string name="menu_save">Save</string>
+
 </resources>
