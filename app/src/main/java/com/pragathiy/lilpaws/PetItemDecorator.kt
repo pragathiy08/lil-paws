@@ -18,10 +18,6 @@ class PetItemDecorator : RecyclerView.ItemDecoration() {
         val pos = parent.getChildLayoutPosition(view)
         outRect.top = 16
         if (pos % 2 == 0) {
-            outRect.left = 16
-            outRect.right = 8
-        } else {
-            outRect.left = 9
             outRect.right = 16
         }
     }

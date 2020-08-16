@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pet_card"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:clickable="true"
     android:focusable="true"
+    app:cardElevation="2dp"
     app:contentPadding="@dimen/pad_16">
 
     <LinearLayout
@@ -16,6 +18,7 @@
             android:id="@+id/pet_card_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/text_name"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
             android:textStyle="bold" />
 
@@ -24,12 +27,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:text="@string/text_name"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/pet_card_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/text_age"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

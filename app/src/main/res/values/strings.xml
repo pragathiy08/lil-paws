@@ -1,10 +1,6 @@
 <resources>
     <string name="app_name">Lil\' Paws</string>
 
-    <!-- Configs -->
-    <string name="preferences">com.pragathiy.lilpaws.SharedPref</string>
-    <string name="pref_auth_token">AuthToken</string>
-
     <!-- Activity Labels -->
     <string name="activity_signin">Signin</string>
     <string name="activity_new_pet">New Pet</string>
@@ -15,9 +11,25 @@
     <string name="hint_pet_name">Name</string>
     <string name="hint_pet_age">Age</string>
     <string name="button_signin">Signin</string>
+    <string name="button_signup">Signup</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="chip_locator">Vets Nearby</string>
     <string name="chip_dog">Dog</string>
     <string name="chip_cat">Cat</string>
     <string name="chip_bird">Bird</string>
+    <string name="chip_bunny">Bunny</string>
+    <string name="chip_fish">Fish</string>
+    <string name="chip_email">$email</string>
+    <string name="text_name">$name</string>
+    <string name="text_description">$age year old $type</string>
+    <string name="text_age">Aged $age year(s)</string>
+    <string name="button_delete">Delete</string>
+
+    <!-- Headings -->
+    <string name="heading_updates">Updates</string>
+    <string name="heading_category">Pet category</string>
+    <string name="heading_details">Pet Details</string>
+    <string name="headline_owner_contact">Owner contact</string>
 
     <!-- No Auth Screen -->
     <string name="noauth_icon_description">Hello illustration</string>

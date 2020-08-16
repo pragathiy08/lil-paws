@@ -9,4 +9,12 @@
         <item name="colorOnSecondary">@color/secondaryTextColor</item>
     </style>
 
+    <style name="ButtonPrimaryContained" parent="Widget.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonSecondaryContained" parent="ButtonPrimaryContained">
+        <item name="backgroundTint">@color/secondaryColor</item>
+    </style>
+
 </resources>

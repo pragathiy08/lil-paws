@@ -3,19 +3,12 @@ package com.pragathiy.lilpaws
 import com.google.firebase.database.IgnoreExtraProperties
 
 @IgnoreExtraProperties
-class Pet() {
+class Pet {
 
-    lateinit var type: PetType
-    lateinit var name: String
-    var age: Int = 0
+    var key: String? = null
+    var type: String? = null
+    var name: String? = null
+    var age: Int? = null
+    var owner: String? = null
 
-    constructor(type: PetType, name: String, age: Int) : this() {
-        this.type = type
-        this.name = name
-        this.age = age
-    }
-
-    enum class PetType {
-        DOG, CAT, BIRD
-    }
 }
