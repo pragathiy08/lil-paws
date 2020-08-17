@@ -14,7 +14,6 @@ import kotlinx.android.synthetic.main.activity_new_pet.*
 
 class NewPetActivity : AppCompatActivity() {
 
-    private val _tag = "appx"
     private lateinit var database: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {

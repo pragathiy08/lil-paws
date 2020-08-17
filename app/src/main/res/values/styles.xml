@@ -13,8 +13,4 @@
         <item name="textAllCaps">false</item>
     </style>
 
-    <style name="ButtonSecondaryContained" parent="ButtonPrimaryContained">
-        <item name="backgroundTint">@color/secondaryColor</item>
-    </style>
-
 </resources>

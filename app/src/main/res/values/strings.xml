@@ -32,7 +32,7 @@
     <string name="headline_owner_contact">Owner contact</string>
 
     <!-- No Auth Screen -->
-    <string name="noauth_icon_description">Hello illustration</string>
+    <string name="no_auth_icon_description">Hello illustration</string>
     <string name="noauth_message">Hello user, please sign in.</string>
 
     <!-- Menus -->

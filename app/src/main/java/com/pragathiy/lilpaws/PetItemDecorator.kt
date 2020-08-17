@@ -6,8 +6,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 class PetItemDecorator : RecyclerView.ItemDecoration() {
 
-    private val _tag = "appx"
-
     override fun getItemOffsets(
         outRect: Rect,
         view: View,

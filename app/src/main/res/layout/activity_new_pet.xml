@@ -27,35 +27,30 @@
             app:singleSelection="true">
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/category_dog"
                 style="@style/Widget.MaterialComponents.Chip.Choice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/chip_dog" />
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/catergory_cat"
                 style="@style/Widget.MaterialComponents.Chip.Choice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/chip_cat" />
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/category_bird"
                 style="@style/Widget.MaterialComponents.Chip.Choice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/chip_bird" />
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/category_bunny"
                 style="@style/Widget.MaterialComponents.Chip.Choice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/chip_bunny" />
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/category_fish"
                 style="@style/Widget.MaterialComponents.Chip.Choice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
